@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: web
+  profiles:
+    active: default
+  config:
+    import: configserver:http://admin:admin@localhost:8888
